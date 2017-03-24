@@ -1,8 +1,15 @@
 describe("math", function() {
-    var add = require("../../lib/math/math");
+    var math = require("../../lib/math/math.js");
+
     it("should return 3" , function() {
-        var sum = add(1,2);
-        
+        var sum = math.add(1,2);
+
         expect(sum).toEqual(3)
+    })
+
+    it("should return the substruction of two operands ", function(){
+        var substruction = math.minus(3,2);
+
+        expect(substruction).toBe(1)
     })
 }) 
