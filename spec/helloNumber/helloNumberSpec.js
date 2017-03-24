@@ -13,4 +13,10 @@ describe("helloNumber", function() {
 
         expect (number === "Fizz").toBe(true);
     })
+
+    it("when input number of 5 multiple should return Buzz", function() {
+        var number = helloNumber(5);
+
+        expect (number === "Buzz").toBe(true);
+    })
 }) 
