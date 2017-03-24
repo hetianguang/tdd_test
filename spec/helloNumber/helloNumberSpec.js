@@ -9,8 +9,8 @@ describe("helloNumber", function() {
     })
 
     it("when input number of 3 multiple should return Fizz", function() {
-        var number = helloNumber(3)
+        var number = helloNumber(3);
 
-        expect = helloNumber(number === "Fizz").toBe(true);
+        expect (number === "Fizz").toBe(true);
     })
 }) 
