@@ -1,0 +1,15 @@
+{
+  "name": "tian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "initT": "jasmine examples"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
